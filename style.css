@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+body {
+    background: url(https://fastly.picsum.photos/id/1068/1600/900.jpg?hmac=G7MO-8yFlg4HntLk9_f6lG068wlU-4II8dbG4cpEP1Y);
+    height: 100vh;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 420px;
+    background: transparent;
+    border-style: inset;
+    border-color:rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 5px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #fff;
+}
+
+.input-container {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 3px 0;
+}
+
+.input-container input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+    color: #fff;
+}
+
+.input-container img {
+    position: absolute;
+    right: 24px;
+    top: 20%;
+    margin-top: 5px;
+}
+
+.input-container a {
+    font-size: 16px;
+    margin-top: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.input-container a:hover {
+    text-decoration: underline;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: #5100b5;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 500;
+    margin-top: 24px;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+
+}
+
+.submit-button:hover {
+    background-color: #6109cb;
+}
+
+.registra-link p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.registra-link p a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.registra-link p a:hover {
+    text-decoration: underline;
+}
+
+.registra-link {
+    text-align: left;
+    margin: 5px;
+}
